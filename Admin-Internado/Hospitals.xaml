@@ -6,7 +6,21 @@
              xmlns:local="clr-namespace:Admin_Internado"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+    <Grid Background="#FFFFBEBE">
+        <Button x:Name="btnCreateHospital" Content="Crear" HorizontalAlignment="Left" Margin="314,389,0,0" VerticalAlignment="Top"/>
+        <Grid Margin="0,0,0,347" Background="#FFF7AEFF">
+            <TextBlock HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="50" FontFamily="Comic Sans MS">
+                <TextBlock.Effect>
+                    <DropShadowEffect/>
+                </TextBlock.Effect><Run Language="es-es" Text="Hospitales"/></TextBlock>
+        </Grid>
+        <DataGrid Margin="423,124,10,10"  Background="#FFD082F5"/>
+        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="210,389,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="156" Margin="10,126,0,0" VerticalAlignment="Top" Width="350" Source="/google-maps.png" Stretch="Fill"/>
+        <TextBox x:Name="txtNameHospital"   HorizontalAlignment="Left" Margin="115,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtnumberphone"   HorizontalAlignment="Left" Margin="115,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="17,307,0,0" VerticalAlignment="Top"/>
+        <Label Content="Número Telefono:" HorizontalAlignment="Left" Margin="10,354,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </UserControl>

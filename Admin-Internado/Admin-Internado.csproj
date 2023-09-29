@@ -152,6 +152,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\AP MAT.png" />
+    <Resource Include="Images\APELLIDO MATERNO.png" />
+    <Resource Include="Images\APELLIDO PATERNO.png" />
+    <Resource Include="google-maps.png" />
     <Content Include="Images\avatar2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -162,11 +166,21 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\BACK.png" />
     <Content Include="Images\cartoon-placeholder.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\DOC.png" />
+    <Resource Include="Images\DOCTOR.png" />
+    <Resource Include="Images\HOSPASIG.png" />
+    <Resource Include="Images\Interno.png" />
+    <Resource Include="Images\InternoAsignado.png" />
+    <Resource Include="Images\LOGO.png" />
+    <Resource Include="Images\NOMBRE.png" />
+    <Resource Include="Images\portada1.png" />
+    <Resource Include="Images\google-maps.png" />
     <Content Include="Images\UniLogo.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -24,5 +24,7 @@ namespace Admin_Internado
 		{
 			InitializeComponent();
 		}
+
+		
 	}
 }

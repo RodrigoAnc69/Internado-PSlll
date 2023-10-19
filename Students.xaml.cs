@@ -24,5 +24,45 @@ namespace Admin_Internado
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void btnRegistrar_Click(object sender, RoutedEventArgs e)
+        {
+            //
+        }
+        #region
+        private void txtNombre_MouseEnter(object sender, MouseEventArgs e)
+        {
+            elipse1.Fill = new SolidColorBrush(Colors.Green);
+
+        }
+
+        private void txtNombre_MouseLeave(object sender, MouseEventArgs e)
+        {
+            elipse1.Fill = new SolidColorBrush(Colors.Transparent);
+
+        }
+
+        private void txtAPaterno_MouseEnter(object sender, MouseEventArgs e)
+        {
+            elipse2.Fill = new SolidColorBrush(Colors.Green);
+
+        }
+
+        private void txtAPaterno_MouseLeave(object sender, MouseEventArgs e)
+        {
+            elipse2.Fill = new SolidColorBrush(Colors.Transparent);
+        }
+
+        private void txtApellidoMaterno_MouseEnter(object sender, MouseEventArgs e)
+        {
+            elipse_3.Fill = new SolidColorBrush(Colors.Green);
+
+        }
+
+        private void txtApellidoMaterno_MouseLeave(object sender, MouseEventArgs e)
+        {
+            elipse_3.Fill = new SolidColorBrush(Colors.Transparent);
+        }
+        #endregion
+    }
 }
